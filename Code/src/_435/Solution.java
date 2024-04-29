@@ -16,8 +16,10 @@ public class Solution {
         int right = intervals[0][1];
 
         for (int i = 1; i < intervals.length; i++){
-            if (intervals[i][0] >= right){
+            if (intervals[i][0] < right){
                 count++;
+                right = Math.min(intervals[i][1], right) ;
+            }else {
                 right = intervals[i][1];
             }
         }
