@@ -1,4 +1,6 @@
-public class _70 {
+package _70;
+
+public class Solution {
     public int climbStairs(int n) {
         int[] dp = new int[45];
         dp[1] = 1;
