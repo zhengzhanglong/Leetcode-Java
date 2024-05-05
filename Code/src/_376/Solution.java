@@ -1,3 +1,5 @@
+package _376;
+
 public class Solution {
     public int wiggleMaxLength(int[] nums) {
         int flag = 0;//-1表示减，1表示增

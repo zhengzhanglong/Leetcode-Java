@@ -1,5 +1,3 @@
-import java.lang.reflect.Array;
-
 public class Solution {
     public int jump(int[] nums) {
         int[] minSteps = new int[nums.length];

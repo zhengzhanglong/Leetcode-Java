@@ -1,3 +1,5 @@
+package _1005;
+
 import java.util.Arrays;
 
 public class Solution {

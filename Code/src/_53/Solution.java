@@ -1,3 +1,5 @@
+package _53;
+
 public class Solution {
     public int maxSubArray(int[] nums) {
         int maxNum = nums[0];
